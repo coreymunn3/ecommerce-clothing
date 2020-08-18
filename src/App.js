@@ -40,7 +40,7 @@ class App extends React.Component {
               ...snap.data()
             }
           // console log state in the callback 
-          }, ()=> {console.log(this.state)});
+          });
         });
       }
       else {
