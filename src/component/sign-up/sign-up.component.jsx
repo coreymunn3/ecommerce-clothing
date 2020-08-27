@@ -46,6 +46,7 @@ class SignUp extends React.Component {
   handleChange = e => {
     // destructure the name and value off the input field target
     // i.e. email: 'coreymunn3@gmail.com'
+    console.log(e.target.name, e.target.value);
     const { name, value } = e.target;
     this.setState({[name]: value});
   }
